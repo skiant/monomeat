@@ -1,0 +1,44 @@
+.header{
+    background-color: hsl(60, 5%, 5%);
+    border-bottom: 1px solid hsl(340, 95%, 55%);
+}
+
+#menu-toggle li a{
+    background-color: hsl(60, 5%, 5%);
+}
+#menu-toggle li a:hover{
+    color: white;
+    background-color: hsl(340, 95%, 55%);
+}
+
+body {
+    background-color: hsl(60, 5%, 15%);
+}
+
+.chats li {
+    background-color: hsla(60, 5%, 15%, 0.7);
+}
+
+.chats li p {
+    color: hsl(0, 0%, 90%);
+}
+
+.chats li p a {
+    color: hsl(190, 80%, 65%)
+}
+.chats li p a:hover{
+    background-color: hsl(60, 5%, 5%);
+}
+
+.chats li:after,
+.chats li .mute {
+    background-color: hsl(340, 95%, 55%);
+}
+
+#footer{
+    background-color: hsl(60, 5%, 5%);
+}
+
+#footer video{
+    border-top: 1px solid hsl(60, 5%, 15%);
+}
