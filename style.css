@@ -1,44 +1,63 @@
-.header{
-    background-color: hsl(60, 5%, 5%);
-    border-bottom: 1px solid hsl(340, 95%, 55%);
-}
-
-#menu-list li a{
-    background-color: hsl(60, 5%, 5%);
-}
-#menu-list li a:hover{
-    color: white;
-    background-color: hsl(340, 95%, 55%);
-}
-
 body {
-    background-color: hsl(60, 5%, 15%);
-}
+  background-color: #282824;
+  color: white; }
 
-#chat-list li {
-    background-color: hsla(60, 5%, 15%, 0.7);
-}
+.header,
+#footer {
+  background-color: #0d0d0c; }
 
-#chat-list li p {
-    color: hsl(0, 0%, 90%);
-}
+#menu-list {
+  border: none; }
 
-#chat-list li p a {
-    color: hsl(190, 80%, 65%)
-}
-#chat-list li p a:hover{
-    background-color: hsl(60, 5%, 5%);
-}
+#menu-button li a {
+  background-color: #0d0d0c;
+  border-bottom: 1px solid rgba(40, 40, 36, 0.5);
+  color: white; }
+  #menu-button li a:hover {
+    color: white; }
+
+a {
+  color: #5ed5ed; }
+  a:hover {
+    background-color: #0d0d0c; }
+
+#show-list {
+  background: none; }
+
+#chat-list li,
+#chat-container #chat-list li,
+#chat-container #show-list li {
+  background-color: rgba(40, 40, 36, 0.7); }
+  #chat-list li p,
+  #chat-container #chat-list li p,
+  #chat-container #show-list li p {
+    color: white; }
+  #chat-list li a,
+  #chat-container #chat-list li a,
+  #chat-container #show-list li a {
+    color: #5ed5ed; }
+    #chat-list li a:hover,
+    #chat-container #chat-list li a:hover,
+    #chat-container #show-list li a:hover {
+      background-color: #0d0d0c; }
+
+#footer video {
+  border-top: 1px solid #282824; }
+
+.header {
+  border-bottom: 1px solid #f91f68; }
 
 #chat-list li:after,
 #chat-list li .mute {
-    background-color: hsl(340, 95%, 55%);
-}
+  background-color: #f91f68; }
 
-#footer{
-    background-color: hsl(60, 5%, 5%);
-}
+#menu-button li a:hover {
+  background-color: #f91f68; }
 
-#footer video{
-    border-top: 1px solid hsl(60, 5%, 15%);
-}
+html[ng-app=meatspacestv] .header {
+  border-bottom: 1px solid #14b8b8; }
+html[ng-app=meatspacestv] #chat-container #chat-list li:after,
+html[ng-app=meatspacestv] #chat-container #chat-list li .mute {
+  background-color: #14b8b8; }
+html[ng-app=meatspacestv] #menu-button li a:hover {
+  background-color: #14b8b8; }

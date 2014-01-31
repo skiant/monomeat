@@ -1,0 +1,94 @@
+// variables
+$darkGrey: hsl(60, 5%, 15%);
+$darkerGrey: hsl(60, 5%, 5%);
+$meatPink: hsl(340, 95%, 55%);
+$tvGreen: hsl(180, 80%, 40%);
+$linkBlue: hsl(190, 80%, 65%);
+
+
+// chat and TV
+body{
+  background-color: $darkGrey;
+  color: white;
+}
+.header,
+#footer{
+  background-color: $darkerGrey;
+}
+
+#menu-list {
+  border: none;
+}
+
+#menu-button li a {
+  background-color: $darkerGrey;
+  border-bottom: 1px solid transparentize($darkGrey, 0.5);
+  color: white;
+
+  &:hover {
+    color: white;
+  }
+}
+
+a {
+  color: $linkBlue;
+  &:hover {
+    background-color: $darkerGrey;
+  }
+}
+
+#show-list {
+  background: none;
+}
+
+#chat-list li, 
+#chat-container #chat-list li,
+#chat-container #show-list li {
+  background-color: transparentize($darkGrey, 0.3);
+  
+  p {
+    color: white;
+  }
+
+  a {
+    color: $linkBlue;
+    &:hover {
+      background-color: $darkerGrey;
+    }
+  }
+}
+
+#footer video{
+    border-top: 1px solid $darkGrey;
+}
+
+
+// meatPink
+.header{
+  border-bottom: 1px solid $meatPink;
+}
+#chat-list li:after, 
+#chat-list li .mute {
+  background-color: $meatPink;
+}
+
+#menu-button li a:hover {
+  background-color: $meatPink;
+}
+
+
+// tvGreen
+html[ng-app=meatspacestv] {
+  .header{
+    border-bottom: 1px solid $tvGreen;
+  }
+  #chat-container {
+    #chat-list li:after, 
+    #chat-list li .mute {
+      background-color: $tvGreen;
+    }
+  }
+  #menu-button li a:hover {
+    background-color: $tvGreen;
+  }
+}

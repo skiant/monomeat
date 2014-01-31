@@ -3,6 +3,9 @@ MonoMeat
 
 A monokai-inspired theme for Meatspace, to be used with Stylish, because my eyes hurt at night.
 
+Now supporting meatspaces.tv channels as well!
+
+
 - [Screenshot](http://i.imgur.com/UWodkPz.png)
 - [Stylish for Chrome](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe)
 - [Stylish for Firefox](https://addons.mozilla.org/firefox/addon/stylish/)
